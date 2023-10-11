@@ -1,1 +1,3 @@
-# mtm6302-console-controller
+Conner Hyndman
+
+41008848
