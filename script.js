@@ -43,14 +43,6 @@ function setFontcolor(newFont) {
     if (description) {description.style.color = newFont}
 }
 
-/*const changeFontColor = document.getElementById('text-color');
-
-changeFontColor.setAttribute('style', `
-color: yellow;
-`)
-*/
-
-
 
 const $theme = document.getElementById('theme')
 
