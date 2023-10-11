@@ -15,30 +15,48 @@ Used to change the page theme to the theme provided. */
 
 // setTitle = "in the console?"
 
+// Changes Title
+const changeTitle = document.getElementById('title');
 
-const $setTitle = document.getElementById("title").innerHTML = "gfsgsdgssdg";
+function setTitle(newTitle) {
+    if (changeTitle) {title.textContent = newTitle}
+}
 
-const $setDescription = document.getElementById("description").innerHTML = "ddddd";
+// Changes Description
+const description = document.getElementById('description');
 
-const setBackgroundColor = document.querySelector('.background');
+function setDescription(newDescription) {
+    if (description) {description.textContent = newDescription}
+}
 
-setBackgroundColor.setAttribute('style', `
-background-color: red;
-`)
+// Changes background color
+const background = document.getElementById('background');
 
-const setFontColor = document.querySelector('.background');
+function setBackground(newBackground) {
+    if (background) {background.style.backgroundColor = newBackground}
+}
 
-setFontColor.setAttribute('style', `
+
+
+function setFontcolor(newFont) {
+    if (changeTitle) {changeTitle.style.color = newFont}
+    if (description) {description.style.color = newFont}
+}
+
+/*const changeFontColor = document.getElementById('text-color');
+
+changeFontColor.setAttribute('style', `
 color: yellow;
 `)
+*/
 
 
 
+const $theme = document.getElementById('theme')
 
+function theme() {
 
-
-
-
-// function myFunction
-
-// const setTitle = document.getElementById("title").innerHTML = "The next title!";
+  $theme.classList.toggle('on')
+  $theme.classList.toggle('off')
+  
+}

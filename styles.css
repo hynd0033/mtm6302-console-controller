@@ -48,34 +48,13 @@ table {
 }
 
 
-
-.background {
-    background-color: blueviolet;
-}
-
-.off {
-    background-color: blue;
-    color:aqua;
-}
-
-/* Dark theme 
-
-.background {
+.theme.off{
     background-color: black;
-}
-
-h1, p {
     color: white;
 }
 
-/* White Theme 
-
-.background {
+.theme.on {
     background-color: white;
-}
-
-h1, p {
     color: black;
 }
 
-*/
